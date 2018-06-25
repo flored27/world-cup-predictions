@@ -165,36 +165,35 @@ class BracketDetail extends Component {
                 </div>
 
                 <div class="round round-one current">
-                  <div class="round-details">Round 1<br/><span class="date">March 16</span></div>
-                  <ul class="matchup">
+                  <div class="round-details">Group Stage<br/></div>
+                  <div class="group-details">Group A</div>
+                  <ul class="matchup-round1">
                     <li class="team team-top">Minnesota<span class="score">62</span></li>
                     <li class="team team-bottom">Northwestern<span class="score">54</span></li>
-                  </ul>
-                  <ul class="matchup">
                     <li class="team team-top">Michigan<span class="score">68</span></li>
                     <li class="team team-bottom">Iowa<span class="score">66</span></li>
                   </ul>
-                  <ul class="matchup">
+                  <br/>
+                  <div class="group-details">Group A</div>
+                  <ul class="matchup-round1">
                     <li class="team team-top">Illinois<span class="score">64</span></li>
                     <li class="team team-bottom">Wisconsin<span class="score">56</span></li>
-                  </ul>
-                  <ul class="matchup">
                     <li class="team team-top">Purdue<span class="score">36</span></li>
                     <li class="team team-bottom">Boise State<span class="score">40</span></li>
                   </ul>
-                  <ul class="matchup">
+                  <br/>
+                  <div class="group-details">Group A</div>
+                  <ul class="matchup-round1">
                     <li class="team team-top">Penn State<span class="score">38</span></li>
                     <li class="team team-bottom">Indiana<span class="score">44</span></li>
-                  </ul>
-                  <ul class="matchup">
                     <li class="team team-top">Ohio State<span class="score">52</span></li>
                     <li class="team team-bottom">VCU<span class="score">80</span></li>
                   </ul>
-                  <ul class="matchup">
+                  <br/>
+                  <div class="group-details">Group A</div>
+                  <ul class="matchup-round1">
                     <li class="team team-top">USC<span class="score">58</span></li>
                     <li class="team team-bottom">Cal<span class="score">59</span></li>
-                  </ul>
-                  <ul class="matchup">
                     <li class="team team-top">Virginia Tech<span class="score">74</span></li>
                     <li class="team team-bottom">Dartmouth<span class="score">111</span></li>
                   </ul>
