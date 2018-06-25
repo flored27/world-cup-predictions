@@ -31,10 +31,11 @@ class BracketDetail extends Component {
             <div class="container">
               <div class="split split-one">
                 <div class="round round-one current">
-                  <div class="round-details">Round 1
+                  <div class="round-details">Group Stage
                     <br/>
-                    <span class="date">March 16</span>
+
                   </div>
+                  <div class="group-details">Group A</div>
                   <ul class="matchup-round1">
                     <li class="team team-top"><span class="position">A1</span>Duke<span class="score">76</span></li>
                     <li class="team team-bottom">Virginia<span class="score">82</span></li>
@@ -42,6 +43,7 @@ class BracketDetail extends Component {
                     <li class="team team-bottom">Clemson<span class="score">56</span></li>
                   </ul>
                   <br/>
+                  <div class="group-details">Group B</div>
                   <ul class="matchup-round1">
                     <li class="team team-top">North Carolina<span class="score">68</span></li>
                     <li class="team team-bottom">Florida State<span class="score">54</span></li>
@@ -49,7 +51,7 @@ class BracketDetail extends Component {
                     <li class="team team-bottom">Maryland<span class="score">92</span></li>
                   </ul>
                   <br/>
-
+                  <div class="group-details">Group B</div>
                   <ul class="matchup-round1">
                     <li class="team team-top">Georgia Tech<span class="score">78</span></li>
                     <li class="team team-bottom">Georgia<span class="score">80</span></li>
@@ -57,7 +59,7 @@ class BracketDetail extends Component {
                     <li class="team team-bottom">Florida<span class="score">63</span></li>
                   </ul>
                   <br/>
-                  
+                  <div class="group-details">Group B</div>
                   <ul class="matchup-round1">
                     <li class="team team-top">Kentucky<span class="score">70</span></li>
                     <li class="team team-bottom">Alabama<span class="score">59</span></li>
