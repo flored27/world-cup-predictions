@@ -71,20 +71,20 @@ class BracketDetail extends Component {
                 <div class="round round-two current">
                     <div class="round-details">Round of 16<br/><span class="date">March 18</span></div>
                     <ul class="matchup">
-                        <li class="team team-top">&nbsp;<span class="score">&nbsp;</span></li>
-                        <li class="team team-bottom">&nbsp;<span class="score">&nbsp;</span></li>
+                        <li class="team team-top"><span class="position">A1</span>&nbsp;<span class="score">&nbsp;</span></li>
+                        <li class="team team-bottom"><span class="position">A1</span>&nbsp;<span class="score">&nbsp;</span></li>
                     </ul>
                     <ul class="matchup">
-                        <li class="team team-top">&nbsp;<span class="score">&nbsp;</span></li>
-                        <li class="team team-bottom">&nbsp;<span class="score">&nbsp;</span></li>
+                        <li class="team team-top"><span class="position">A1</span>&nbsp;<span class="score">&nbsp;</span></li>
+                        <li class="team team-bottom"><span class="position">A1</span>&nbsp;<span class="score">&nbsp;</span></li>
                     </ul>
                     <ul class="matchup">
-                        <li class="team team-top">&nbsp;<span class="score">&nbsp;</span></li>
-                        <li class="team team-bottom">&nbsp;<span class="score">&nbsp;</span></li>
+                        <li class="team team-top"><span class="position">A1</span>&nbsp;<span class="score">&nbsp;</span></li>
+                        <li class="team team-bottom"><span class="position">A1</span>&nbsp;<span class="score">&nbsp;</span></li>
                     </ul>
                     <ul class="matchup">
-                        <li class="team team-top">&nbsp;<span class="score">&nbsp;</span></li>
-                        <li class="team team-bottom">&nbsp;<span class="score">&nbsp;</span></li>
+                        <li class="team team-top"><span class="position">A1</span>&nbsp;<span class="score">&nbsp;</span></li>
+                        <li class="team team-bottom"><span class="position">A1</span>&nbsp;<span class="score">&nbsp;</span></li>
                     </ul>
                 </div>
 
@@ -147,20 +147,20 @@ class BracketDetail extends Component {
                 <div class="round round-two current">
                   <div class="round-details">Round of 16<br/><span class="date">March 18</span></div>
                   <ul class="matchup">
-                    <li class="team team-top">&nbsp;<span class="score">&nbsp;</span></li>
-                    <li class="team team-bottom">&nbsp;<span class="score">&nbsp;</span></li>
+                    <li class="team team-top"><span class="position">A1</span>&nbsp;<span class="score">&nbsp;</span></li>
+                    <li class="team team-bottom"><span class="position">A1</span>&nbsp;<span class="score">&nbsp;</span></li>
                   </ul>
                   <ul class="matchup">
-                    <li class="team team-top">&nbsp;<span class="score">&nbsp;</span></li>
-                    <li class="team team-bottom">&nbsp;<span class="score">&nbsp;</span></li>
+                    <li class="team team-top"><span class="position">A1</span>&nbsp;<span class="score">&nbsp;</span></li>
+                    <li class="team team-bottom"><span class="position">A1</span>&nbsp;<span class="score">&nbsp;</span></li>
                   </ul>
                   <ul class="matchup">
-                    <li class="team team-top">&nbsp;<span class="score">&nbsp;</span></li>
-                    <li class="team team-bottom">&nbsp;<span class="score">&nbsp;</span></li>
+                    <li class="team team-top"><span class="position">A1</span>&nbsp;<span class="score">&nbsp;</span></li>
+                    <li class="team team-bottom"><span class="position">A1</span>&nbsp;<span class="score">&nbsp;</span></li>
                   </ul>
                   <ul class="matchup">
-                    <li class="team team-top">&nbsp;<span class="score">&nbsp;</span></li>
-                    <li class="team team-bottom">&nbsp;<span class="score">&nbsp;</span></li>
+                    <li class="team team-top"><span class="position">A1</span>&nbsp;<span class="score">&nbsp;</span></li>
+                    <li class="team team-bottom"><span class="position">A1</span>&nbsp;<span class="score">&nbsp;</span></li>
                   </ul>
                 </div>
 
