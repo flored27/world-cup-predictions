@@ -94,12 +94,12 @@ class Bracket extends Component {
             <div class="round round-three">
                 <div class="round-details">Quarter Finals<br/><span class="date">March 22</span></div>
                 <ul class="matchup">
-                    <li class="team team-top">&nbsp;<span class="score">&nbsp;</span></li>
-                    <li class="team team-bottom">&nbsp;<span class="score">&nbsp;</span></li>
+                    <li class="team team-top">{this.props.matches[56].home_team.country}<span class="score">&nbsp;</span></li>
+                    <li class="team team-bottom">{this.props.matches[56].away_team.country}<span class="score">&nbsp;</span></li>
                 </ul>
                 <ul class="matchup">
-                    <li class="team team-top">&nbsp;<span class="score">&nbsp;</span></li>
-                    <li class="team team-bottom">&nbsp;<span class="score">&nbsp;</span></li>
+                    <li class="team team-top">{this.props.matches[57].home_team.country}<span class="score">&nbsp;</span></li>
+                    <li class="team team-bottom">{this.props.matches[57].away_team.country}<span class="score">&nbsp;</span></li>
                 </ul>
             </div>
 
@@ -110,7 +110,7 @@ class Bracket extends Component {
             <div class="semis-l">
               <div class="round-details">Semi Final <br/><span class="date">March 26-28</span></div>
               <ul class ="matchup championship">
-                <li class="team team-top">{this.props.matches[60].away_team.country}<span class="vote-count">&nbsp;</span></li>
+                <li class="team team-top">{this.props.matches[60].home_team.country}<span class="vote-count">&nbsp;</span></li>
                 <li class="team team-bottom">{this.props.matches[60].away_team.country}<span class="vote-count">&nbsp;</span></li>
               </ul>
             </div>
@@ -138,12 +138,12 @@ class Bracket extends Component {
             <div class="round round-three">
               <div class="round-details">Quarterfinals<br/><span class="date">March 22</span></div>
               <ul class="matchup">
-                <li class="team team-top">Georgia<span class="score">&nbsp;</span></li>
-                <li class="team team-bottom">&nbsp;<span class="score">&nbsp;</span></li>
+                <li class="team team-top">{this.props.matches[59].home_team.country}<span class="score"></span></li>
+                <li class="team team-bottom">{this.props.matches[59].away_team.country}<span class="score"></span></li>
               </ul>
               <ul class="matchup">
-                <li class="team team-top">&nbsp;<span class="score">&nbsp;</span></li>
-                <li class="team team-bottom">&nbsp;<span class="score">&nbsp;</span></li>
+                <li class="team team-top">{this.props.matches[58].home_team.country}<span class="score">&nbsp;</span></li>
+                <li class="team team-bottom">{this.props.matches[58].away_team.country}<span class="score">&nbsp;</span></li>
               </ul>
             </div>
 
