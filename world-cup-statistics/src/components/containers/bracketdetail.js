@@ -6,7 +6,8 @@ class BracketDetail extends Component {
   constructor(props){
       super(props);
       this.state={
-        groups: null
+        groups: null,
+        matches: null
       }
     }
 
@@ -20,19 +21,24 @@ class BracketDetail extends Component {
         groups: data
       })
     })
+    .then(fetch(`https://worldcup.sfg.io/matches`)
+    .then(data => data.json())
+    .then(data=> {
+      this.setState({
+        matches: data
+      })
+    })
+
+    )
+
+
   }
 
   render() {
-    const books = this.state.groups && this.state.groups.map( (book, i) => {
-      return(
-        console.log(this.state.groups[0].group.id)
-      )
-    })
-
-
+    console.log(this.state.matches)
     return (
       <div>
-      <Bracket groups={this.state.groups} />
+      <Bracket groups={this.state.groups} matches={this.state.matches}/>
       </div>
   );
   }
