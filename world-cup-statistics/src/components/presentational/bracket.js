@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import '../../styles/bracket.css';
 
 class Bracket extends Component {
-  
+
   render() {
     console.log(this.props.groups)
     const bracket = this.props.groups && this.props.matches ?
@@ -110,8 +110,8 @@ class Bracket extends Component {
             <div class="semis-l">
               <div class="round-details">Semi Final <br/><span class="date">March 26-28</span></div>
               <ul class ="matchup championship">
-                <li class="team team-top">&nbsp;<span class="vote-count">&nbsp;</span></li>
-                <li class="team team-bottom">&nbsp;<span class="vote-count">&nbsp;</span></li>
+                <li class="team team-top">{this.props.matches[60].away_team.country}<span class="vote-count">&nbsp;</span></li>
+                <li class="team team-bottom">{this.props.matches[60].away_team.country}<span class="vote-count">&nbsp;</span></li>
               </ul>
             </div>
 
@@ -126,8 +126,8 @@ class Bracket extends Component {
 
             <div class="semis-r">
               <ul class ="matchup championship">
-                <li class="team team-top">&nbsp;<span class="vote-count">&nbsp;</span></li>
-                <li class="team team-bottom">&nbsp;<span class="vote-count">&nbsp;</span></li>
+                <li class="team team-top">{this.props.matches[61].home_team.country}<span class="vote-count">&nbsp;</span></li>
+                <li class="team team-bottom">{this.props.matches[61].away_team.country}<span class="vote-count">&nbsp;</span></li>
               </ul>
               <div class="bottom-semis">Semi Final <br/><span class="date">March 26-28</span></div>
             </div>
