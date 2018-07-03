@@ -74,28 +74,28 @@ class Bracket extends Component {
             <div class="round round-two current">
                 <div class="round-details">Round of 16<br/><span class="date">March 18</span></div>
                 <ul class="matchup">
-                    <li class="team team-top"><span class="position">A1</span>{this.props.groups[0].ordered_teams[0].country}<span class="score">&nbsp;</span></li>
-                    <li class="team team-bottom"><span class="position">B2</span>{this.props.groups[1].ordered_teams[1].country}<span class="score">&nbsp;</span></li>
+                    <li class="team team-top"><span class="position">A1</span>{this.props.matches[48].home_team.country}<span class="score">&nbsp;</span></li>
+                    <li class="team team-bottom"><span class="position">B2</span>{this.props.matches[48].away_team.country}<span class="score">&nbsp;</span></li>
                 </ul>
                 <ul class="matchup">
-                    <li class="team team-top"><span class="position">C1</span>&nbsp;<span class="score">&nbsp;</span></li>
-                    <li class="team team-bottom"><span class="position">D2</span>&nbsp;<span class="score">&nbsp;</span></li>
+                    <li class="team team-top"><span class="position">C1</span>{this.props.matches[49].home_team.country}<span class="score">&nbsp;</span></li>
+                    <li class="team team-bottom"><span class="position">D2</span>{this.props.matches[49].away_team.country}<span class="score">&nbsp;</span></li>
                 </ul>
                 <ul class="matchup">
-                    <li class="team team-top"><span class="position">E1</span>&nbsp;<span class="score">&nbsp;</span></li>
-                    <li class="team team-bottom"><span class="position">F2</span>&nbsp;<span class="score">&nbsp;</span></li>
+                    <li class="team team-top"><span class="position">E1</span>{this.props.matches[52].home_team.country}<span class="score">&nbsp;</span></li>
+                    <li class="team team-bottom"><span class="position">F2</span>{this.props.matches[52].away_team.country}<span class="score">&nbsp;</span></li>
                 </ul>
                 <ul class="matchup">
-                    <li class="team team-top"><span class="position">G1</span>&nbsp;<span class="score">&nbsp;</span></li>
-                    <li class="team team-bottom"><span class="position">H2</span>&nbsp;<span class="score">&nbsp;</span></li>
+                    <li class="team team-top"><span class="position">G1</span>{this.props.matches[53].home_team.country}<span class="score">&nbsp;</span></li>
+                    <li class="team team-bottom"><span class="position">H2</span>{this.props.matches[53].away_team.country}<span class="score">&nbsp;</span></li>
                 </ul>
             </div>
 
             <div class="round round-three">
                 <div class="round-details">Quarter Finals<br/><span class="date">March 22</span></div>
                 <ul class="matchup">
-                    <li class="team team-top">{this.props.matches[56].home_team.country}<span class="score">&nbsp;</span></li>
-                    <li class="team team-bottom">{this.props.matches[56].away_team.country}<span class="score">&nbsp;</span></li>
+                    <li class="team team-top">{this.props.matches[56].away_team.country}<span class="score">&nbsp;</span></li>
+                    <li class="team team-bottom">{this.props.matches[56].home_team.country}<span class="score">&nbsp;</span></li>
                 </ul>
                 <ul class="matchup">
                     <li class="team team-top">{this.props.matches[57].home_team.country}<span class="score">&nbsp;</span></li>
@@ -150,20 +150,20 @@ class Bracket extends Component {
             <div class="round round-two current">
               <div class="round-details">Round of 16<br/><span class="date">March 18</span></div>
               <ul class="matchup">
-                <li class="team team-top"><span class="position">B1</span>&nbsp;<span class="score">&nbsp;</span></li>
-                <li class="team team-bottom"><span class="position">A2</span>&nbsp;<span class="score">&nbsp;</span></li>
+                <li class="team team-top"><span class="position">B1</span>{this.props.matches[50].home_team.country}<span class="score">&nbsp;</span></li>
+                <li class="team team-bottom"><span class="position">A2</span>{this.props.matches[50].away_team.country}<span class="score">&nbsp;</span></li>
               </ul>
               <ul class="matchup">
-                <li class="team team-top"><span class="position">D1</span>&nbsp;<span class="score">&nbsp;</span></li>
-                <li class="team team-bottom"><span class="position">C2</span>&nbsp;<span class="score">&nbsp;</span></li>
+                <li class="team team-top"><span class="position">D1</span>{this.props.matches[51].home_team.country}<span class="score">&nbsp;</span></li>
+                <li class="team team-bottom"><span class="position">C2</span>{this.props.matches[51].away_team.country}<span class="score">&nbsp;</span></li>
               </ul>
               <ul class="matchup">
-                <li class="team team-top"><span class="position">F1</span>&nbsp;<span class="score">&nbsp;</span></li>
-                <li class="team team-bottom"><span class="position">E2</span>&nbsp;<span class="score">&nbsp;</span></li>
+                <li class="team team-top"><span class="position">F1</span>{this.props.matches[54].home_team.country}<span class="score">&nbsp;</span></li>
+                <li class="team team-bottom"><span class="position">E2</span>{this.props.matches[54].away_team.country}<span class="score">&nbsp;</span></li>
               </ul>
               <ul class="matchup">
-                <li class="team team-top"><span class="position">H1</span>&nbsp;<span class="score">&nbsp;</span></li>
-                <li class="team team-bottom"><span class="position">G2</span>&nbsp;<span class="score">&nbsp;</span></li>
+                <li class="team team-top"><span class="position">H1</span>{this.props.matches[55].home_team.country}<span class="score">&nbsp;</span></li>
+                <li class="team team-bottom"><span class="position">G2</span>{this.props.matches[55].away_team.country}<span class="score">&nbsp;</span></li>
               </ul>
             </div>
 
