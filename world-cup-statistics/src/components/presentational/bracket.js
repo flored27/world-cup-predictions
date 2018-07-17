@@ -196,10 +196,11 @@ class Bracket extends Component {
               <div class="group-details">Group {this.props.groups[7].letter}</div>
               <ul class="matchup-round1">
               <li class="team"><span class="position">{this.props.groups[7].letter}1</span>{this.props.groups[7].ordered_teams[0].country}<span class="score">{this.props.groups[7].ordered_teams[0].points}</span></li>
-              <li class="team"><span class="position">{this.props.groups[7].letter}2</span>{this.props.groups[7].ordered_teams[1].country}<span class="score">{this.props.groups[7].ordered_teams[1].points}</span></li>
-              <li class="team">{this.props.groups[7].ordered_teams[2].country}<span class="score">{this.props.groups[7].ordered_teams[2].points}</span></li>
+              <li class="team"><span class="position">{this.props.groups[7].letter}2*</span>{this.props.groups[7].ordered_teams[2].country}<span class="score">{this.props.groups[7].ordered_teams[2].points}</span></li>
+              <li class="team">{this.props.groups[7].ordered_teams[1].country}<span class="score">{this.props.groups[7].ordered_teams[1].points}</span></li>
               <li class="team">{this.props.groups[7].ordered_teams[3].country}<span class="score">{this.props.groups[7].ordered_teams[3].points}</span></li>
               </ul>
+              <p>*Japan became the second position team in group H (H2) because of Fair Play points</p>
             </div>
           </div>
 
