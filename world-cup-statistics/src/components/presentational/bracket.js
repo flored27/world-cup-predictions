@@ -8,25 +8,12 @@ class Bracket extends Component {
     const bracket = this.props.groups && this.props.matches ?
 
     <div>
-    <head>
-      <meta charset="utf-8" />
-      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-      <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-      <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"/>
-      <link href='https://fonts.googleapis.com/css?family=Holtwood+One+SC' rel='stylesheet' type='text/css'/>
-      <link href='https://fonts.googleapis.com/css?family=Kaushan+Script|Herr+Von+Muellerhoff' rel='stylesheet' type='text/css'/>
-      <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'/>
-      <link href='https://fonts.googleapis.com/css?family=Istok+Web|Roboto+Condensed:700' rel='stylesheet' type='text/css'/>
-      <title>March Madness Stock Matchup</title>
-    </head>
-
     <body>
       <header class="hero">
         <div class="hero-wrap">
-          <p class="intro" id="intro">flexbox</p>
-          <h1 id="headline">Tournament</h1>
-          <p class="year"><i class="fa fa-star"></i> 2015 <i class="fa fa-star"></i></p>
-          <p>Ballin Outta Control</p>
+          <p class="intro" id="intro">FIFA</p>
+          <h1 id="headline">2018 World Cup</h1>
+          <p class="year"><i class="fa fa-star"></i> Russia <i class="fa fa-star"></i></p>
          </div>
       </header>
 
