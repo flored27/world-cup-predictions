@@ -199,6 +199,7 @@ class Bracket extends Component {
           <a class="share-icon" href="https://www.instagram.com/dieggs27/"><i class="fa fa-instagram"></i></a>
           <a class="share-icon" href="https://www.facebook.com/diego.flores.82793"><i class="fa fa-facebook"></i></a>
           <a class="share-icon" href="mailto:contact@diegojflores.com"><i class="fa fa-envelope"></i></a>
+          <a class="share-icon" href="https://www.linkedin.com/in/diegojflores/"><i class="fa fa-linkedin"></i></a>
         </div>
       </section>
     </body>
