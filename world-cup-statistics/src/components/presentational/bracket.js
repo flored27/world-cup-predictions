@@ -196,7 +196,7 @@ class Bracket extends Component {
 
       <section class="share">
         <div class="share-wrap">
-          <a class="share-icon" href="https://twitter.com/basement47"><i class="fa fa-twitter"></i></a>
+          <a class="share-icon" href="https://www.instagram.com/dieggs27/"><i class="fa fa-instagram"></i></a>
           <a class="share-icon" href="#"><i class="fa fa-facebook"></i></a>
           <a class="share-icon" href="#"><i class="fa fa-envelope"></i></a>
         </div>
