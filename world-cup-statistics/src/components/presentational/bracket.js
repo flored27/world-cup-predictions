@@ -97,6 +97,11 @@ class Bracket extends Component {
                     <li class="team team-top">{this.props.matches[56].away_team.country}<span class="score">{this.props.matches[56].away_team.goals}</span></li>
                     <li class="team team-bottom">{this.props.matches[56].home_team.country}<span class="score">{this.props.matches[56].home_team.goals}</span></li>
                 </ul>
+                <ul class="semis">
+                  <div class="round-details">Semi Final <br/><span class="date">March 26-28</span></div>
+                    <li class="team team-top">{this.props.matches[60].home_team.country}<span class="score">{this.props.matches[60].home_team.goals}</span></li>
+                    <li class="team team-bottom">{this.props.matches[60].away_team.country}<span class="score">{this.props.matches[60].away_team.goals}</span></li>
+                </ul>
                 <ul class="matchup">
                     <li class="team team-top">{this.props.matches[57].home_team.country}<span class="score">{this.props.matches[57].home_team.goals}</span></li>
                     <li class="team team-bottom">{this.props.matches[57].away_team.country}<span class="score">{this.props.matches[57].away_team.goals}</span></li>
@@ -107,13 +112,7 @@ class Bracket extends Component {
 
           <div class="champion">
 
-            <div class="semis-l">
-              <div class="round-details">Semi Final <br/><span class="date">March 26-28</span></div>
-              <ul class ="matchup championship">
-                <li class="team team-top">{this.props.matches[60].home_team.country}<span class="score">{this.props.matches[60].home_team.goals}</span></li>
-                <li class="team team-bottom">{this.props.matches[60].away_team.country}<span class="score">{this.props.matches[60].away_team.goals}</span></li>
-              </ul>
-            </div>
+
 
             <div class="final">
               <i class="fa fa-trophy"></i>
@@ -124,13 +123,7 @@ class Bracket extends Component {
               </ul>
             </div>
 
-            <div class="semis-r">
-              <ul class ="matchup championship">
-                <li class="team team-top">{this.props.matches[61].home_team.country}<span class="score">{this.props.matches[61].home_team.goals}</span></li>
-                <li class="team team-bottom">{this.props.matches[61].away_team.country}<span class="score">{this.props.matches[61].away_team.goals}</span></li>
-              </ul>
-              <div class="bottom-semis">Semi Final <br/><span class="date">March 26-28</span></div>
-            </div>
+          
           </div>
 
           <div class="split split-two">
@@ -140,6 +133,11 @@ class Bracket extends Component {
               <ul class="matchup">
                 <li class="team team-top">{this.props.matches[59].home_team.country}<span class="score">{this.props.matches[59].home_team.goals} ({this.props.matches[59].home_team.penalties})</span></li>
                 <li class="team team-bottom">{this.props.matches[59].away_team.country}<span class="score">{this.props.matches[59].away_team.goals} ({this.props.matches[59].away_team.penalties})</span></li>
+              </ul>
+              <ul class="semis">
+                <div class="round-details">Semi Final <br/><span class="date">March 26-28</span></div>
+                  <li class="team team-top">{this.props.matches[61].home_team.country}<span class="score">{this.props.matches[61].home_team.goals}</span></li>
+                  <li class="team team-bottom">{this.props.matches[61].away_team.country}<span class="score">{this.props.matches[61].away_team.goals}</span></li>
               </ul>
               <ul class="matchup">
                 <li class="team team-top">{this.props.matches[58].home_team.country}<span class="score">{this.props.matches[58].home_team.goals}</span></li>
