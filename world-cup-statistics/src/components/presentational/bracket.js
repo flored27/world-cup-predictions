@@ -34,10 +34,7 @@ class Bracket extends Component {
         <div class="container">
           <div class="split split-one">
             <div class="round round-one current">
-              <div class="round-details">Group Stage
-                <br/>
-
-              </div>
+              <div class="round-details">Group Stage<br/><span class="date">June 14-28</span></div>
               <div class="group-details">Group {this.props.groups[0].letter}</div>
               <ul class="matchup-round1">
                 <li class="team"><span class="position">{this.props.groups[0].letter}1</span>{this.props.groups[0].ordered_teams[0].country}<span class="score">{this.props.groups[0].ordered_teams[0].points}</span></li>
@@ -171,7 +168,7 @@ class Bracket extends Component {
             </div>
 
             <div class="round round-one current">
-              <div class="round-details">Group Stage<br/></div>
+              <div class="round-details">Group Stage<br/><span class="date">June 14-28</span></div>
               <div class="group-details">Group {this.props.groups[1].letter}</div>
               <ul class="matchup-round1">
               <li class="team"><span class="position">{this.props.groups[1].letter}1</span>{this.props.groups[1].ordered_teams[0].country}<span class="score">{this.props.groups[1].ordered_teams[0].points}</span></li>
