@@ -112,8 +112,6 @@ class Bracket extends Component {
 
           <div class="champion">
 
-
-
             <div class="final">
               <i class="fa fa-trophy"></i>
               <div class="round-details">Final <br/><span class="date">March 30 - Apr. 1</span></div>
@@ -123,7 +121,14 @@ class Bracket extends Component {
               </ul>
             </div>
 
-          
+            <div class="third-place">
+            <div class="round-details">Third Place <br/><span class="date">March 26-28</span></div>
+              <ul class ="matchup championship">
+                <li class="team team-top">{this.props.matches[62].home_team.country}<span class="score">{this.props.matches[62].home_team.goals}</span></li>
+                <li class="team team-bottom">{this.props.matches[62].away_team.country}<span class="score">{this.props.matches[62].away_team.goals}</span></li>
+              </ul>
+            </div>
+
           </div>
 
           <div class="split split-two">
