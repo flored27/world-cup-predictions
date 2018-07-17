@@ -138,8 +138,8 @@ class Bracket extends Component {
             <div class="round round-three">
               <div class="round-details">Quarterfinals<br/><span class="date">March 22</span></div>
               <ul class="matchup">
-                <li class="team team-top">{this.props.matches[59].home_team.country}<span class="score">{this.props.matches[59].home_team.goals}</span></li>
-                <li class="team team-bottom">{this.props.matches[59].away_team.country}<span class="score">{this.props.matches[59].away_team.goals}</span></li>
+                <li class="team team-top">{this.props.matches[59].home_team.country}<span class="score">{this.props.matches[59].home_team.goals} ({this.props.matches[59].home_team.penalties})</span></li>
+                <li class="team team-bottom">{this.props.matches[59].away_team.country}<span class="score">{this.props.matches[59].away_team.goals} ({this.props.matches[59].away_team.penalties})</span></li>
               </ul>
               <ul class="matchup">
                 <li class="team team-top">{this.props.matches[58].home_team.country}<span class="score">{this.props.matches[58].home_team.goals}</span></li>
@@ -150,20 +150,20 @@ class Bracket extends Component {
             <div class="round round-two current">
               <div class="round-details">Round of 16<br/><span class="date">March 18</span></div>
               <ul class="matchup">
-                <li class="team team-top"><span class="position">B1</span>{this.props.matches[50].home_team.country}<span class="score">{this.props.matches[50].home_team.goals}</span></li>
-                <li class="team team-bottom"><span class="position">A2</span>{this.props.matches[50].away_team.country}<span class="score">{this.props.matches[50].away_team.goals}</span></li>
+                <li class="team team-top"><span class="position">B1</span>{this.props.matches[50].home_team.country}<span class="score">{this.props.matches[50].home_team.goals} ({this.props.matches[50].home_team.penalties})</span></li>
+                <li class="team team-bottom"><span class="position">A2</span>{this.props.matches[50].away_team.country}<span class="score">{this.props.matches[50].away_team.goals} ({this.props.matches[50].away_team.penalties})</span></li>
               </ul>
               <ul class="matchup">
-                <li class="team team-top"><span class="position">D1</span>{this.props.matches[51].home_team.country}<span class="score">{this.props.matches[51].home_team.goals}</span></li>
-                <li class="team team-bottom"><span class="position">C2</span>{this.props.matches[51].away_team.country}<span class="score">{this.props.matches[51].away_team.goals}</span></li>
+                <li class="team team-top"><span class="position">D1</span>{this.props.matches[51].home_team.country}<span class="score">{this.props.matches[51].home_team.goals} ({this.props.matches[51].home_team.penalties})</span></li>
+                <li class="team team-bottom"><span class="position">C2</span>{this.props.matches[51].away_team.country}<span class="score">{this.props.matches[51].away_team.goals} ({this.props.matches[51].away_team.penalties})</span></li>
               </ul>
               <ul class="matchup">
-                <li class="team team-top"><span class="position">F1</span>{this.props.matches[54].home_team.country}<span class="score">{this.props.matches[54].home_team.goals}</span></li>
-                <li class="team team-bottom"><span class="position">E2</span>{this.props.matches[54].away_team.country}<span class="score">{this.props.matches[54].away_team.goals}</span></li>
+                <li class="team team-top"><span class="position">F1</span>{this.props.matches[54].home_team.country}<span class="score">{this.props.matches[54].home_team.goals} </span></li>
+                <li class="team team-bottom"><span class="position">E2</span>{this.props.matches[54].away_team.country}<span class="score">{this.props.matches[54].away_team.goals} </span></li>
               </ul>
               <ul class="matchup">
-                <li class="team team-top"><span class="position">H1</span>{this.props.matches[55].home_team.country}<span class="score">{this.props.matches[55].home_team.goals}</span></li>
-                <li class="team team-bottom"><span class="position">G2</span>{this.props.matches[55].away_team.country}<span class="score">{this.props.matches[55].away_team.goals}</span></li>
+                <li class="team team-top"><span class="position">H1</span>{this.props.matches[55].home_team.country}<span class="score">{this.props.matches[55].home_team.goals} ({this.props.matches[55].home_team.penalties})</span></li>
+                <li class="team team-bottom"><span class="position">G2</span>{this.props.matches[55].away_team.country}<span class="score">{this.props.matches[55].away_team.goals} ({this.props.matches[55].away_team.penalties})</span></li>
               </ul>
             </div>
 
